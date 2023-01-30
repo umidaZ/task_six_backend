@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 import { User, Message } from "./db/db.js";
 
 const app = express();
-const port = process.env.POST || 8080;
+const port = 8080;
 
 mongoose.connect(
   "mongodb+srv://Umida02:Ism73770213@cluster0.o7lhf.mongodb.net/?retryWrites=true&w=majority/task_six"
