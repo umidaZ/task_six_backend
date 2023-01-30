@@ -123,5 +123,5 @@ app.listen(port, () => {
 });
 
 app.get("/", (req, res) => {
-  res.send("welcomee to My website");
+  res.send("welcomee to My page");
 });
