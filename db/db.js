@@ -5,6 +5,10 @@ import moment from "moment/moment.js";
 
 mongoose.set("strictQuery", false);
 
+mongoose.connect(
+  "mongodb+srv://Umida02:Ism73770213@cluster0.o7lhf.mongodb.net/?retryWrites=true&w=majority/task_four"
+);
+
 connect("mongodb://127.0.0.1:27017/email");
 const genId = () => {
   return uuidv4();
